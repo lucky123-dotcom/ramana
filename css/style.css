@@ -12,6 +12,16 @@
 	color: #ffffff;
 }
 
+.layout-bordered-1 {
+    display: flex;
+    justify-content: space-between; /* Space evenly between the items */
+    flex-wrap: nowrap; /* Ensure the items stay on one line */
+  }
+  .layout-bordered-1-item {
+    flex: 1; /* Allow each item to take up equal space */
+    text-align: center;
+    padding: 10px;
+  }
 a:focus,
 button:focus {
 	outline: none !important;
